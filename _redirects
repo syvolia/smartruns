@@ -5,7 +5,7 @@
 /my-redirect  /                            302
 
 # Rewrite a path
-/index3.html                  200
+/*    /index3.html                  200
 
 # Invisbily proxy to a third party API
 /api/*  https://api.example.com/:splat     200
